@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Landingpage-Startup</title>
+<!--taken from Bootstrap site starter template to provide flexability-->
+<!--Viewport=create mobile pages.
+    UTF is the specific encoding for text used here.-->
+     <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--End-->
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <!--d-flex enables flexbox through bootstrap to move container around page-->
+  <!--align-items-center actually moves container to desired position-->
+  <!--h-100 is necessary to apply above to specific location when considering the intire space of the webpage-->
+  <div class="container d-flex align-items-center h-100">
+    <div class="row">
+      <header class="text-center col-12"><!--taken from bootstrap-->
+        <!--text-upperclass=bootstrap class-->
+        <!--"btn btn-primary" copied from bootstrap (blue by default)-->
+        <!--"btn-xl" is a separate class that must be created in .css file -->
+        <h1 class="text-uppercase"><strong>The Biggest Startup Event of the Year</strong></h1>
+      </header>
+      <div class="buffer col-12"></div>
+      <section class="text-center col-12">
+        <hr><!--small line above button-->
+        <!--Link generated from my Mailchimp site-->
+        <a href="https://mailchi.mp/35bfab8616bd/testsite"><button class="btn btn-primary btn-xl">Find out more</button></a>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
